@@ -15,28 +15,6 @@ An AI-powered tool to analyze news articles URL, create a vector-based knowledge
 
 ---
 
-## 📂 Project Structure
-
-
-
-.
-├── app.py # Main Streamlit application
-├── requirements.txt # Project dependencies
-├── faiss_store_openai.pkl # Example FAISS index (prebuilt)
-├── vector_index.pkl # Example vector store
-├── notebooks/ # Jupyter notebooks for testing
-│ ├── faiss.ipynb
-│ ├── retrieval.ipynb
-│ └── text_loaders_splitters.ipynb
-├── sample_text.csv # Sample dataset
-├── nvda_news_1.txt # Example news article
-├── movies.csv # Example CSV for testing
-└── README.md # Project documentation
-
-
-
----
-
 ## 🛠️ Getting Started
 
 ### Prerequisites
