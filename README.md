@@ -17,9 +17,12 @@ An AI-powered tool to analyze news articles URL, create a vector-based knowledge
 
 ## 📂 Project Structure
 
+
+
+.
 ├── app.py # Main Streamlit application
 ├── requirements.txt # Project dependencies
-├── faiss_store_openai.pkl # Example FAISS index
+├── faiss_store_openai.pkl # Example FAISS index (prebuilt)
 ├── vector_index.pkl # Example vector store
 ├── notebooks/ # Jupyter notebooks for testing
 │ ├── faiss.ipynb
@@ -28,7 +31,9 @@ An AI-powered tool to analyze news articles URL, create a vector-based knowledge
 ├── sample_text.csv # Sample dataset
 ├── nvda_news_1.txt # Example news article
 ├── movies.csv # Example CSV for testing
-└── README.md # Documentation
+└── README.md # Project documentation
+
+
 
 ---
 
@@ -73,13 +78,11 @@ OPENAI_API_KEY=your_api_key_here
 streamlit run app.py
 ```
 
-Open [http://localhost:8501](http://localhost:8501) in your browser.
-
 ---
 
 ## 💡 Usage
 
-1. Enter URLs of news articles or upload a PDF.
+1. Enter URLs of news articles.
 2. Click **Process** to create embeddings & build the FAISS index.
 3. Ask questions in natural language (e.g., *“What is the growth outlook?”*).
 4. Get AI-generated answers with relevant source snippets.
